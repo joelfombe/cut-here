@@ -39,3 +39,17 @@ This is a simple project that provides functionality to shorten URLs. It exposes
     "content-type": "application/json"
 }
 ```
+## Contribution
+
+If you want to contribute to this project, follow the steps below:
+
+1. Fork the project.
+2. Create a Branch for your Feature (`git checkout -b feature/AmazingFeature`).
+3. Add your changes (`git add .`).
+4. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+5. Push the Branch (`git push origin feature/AmazingFeature`).
+6. Open a Pull Request.
+
+## License
+
+Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
