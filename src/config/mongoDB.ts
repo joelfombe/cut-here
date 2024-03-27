@@ -6,7 +6,7 @@ export const connectDB = async () => {
     try {
         await connect(process.env.MONGODB!);
         console.log("Connected to MongoDB");
-    } catch (err) {
-        console.error(err);
+    } catch (error) {
+        console.error(error);
     }
 };

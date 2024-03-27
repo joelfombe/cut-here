@@ -1,15 +1,26 @@
 {
   "name": "cut-here",
   "version": "1.0.0",
-  "description": "a simple tool to encurtate urls",
+  "description": "a simple tool to short urls",
   "main": "src/server.ts",
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "url",
+    "shortener",
+    "nodejs",
+    "express",
+    "typescript",
+    "mongodb"
+  ],
+  "author": {
+    "name": "Joel Jr",
+    "email": "joeljuniormanuel@gmail.com",
+    "url": "http://github.com/joelfombe"
+  },
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
@@ -17,8 +28,7 @@
     "nodemon": "^3.1.0",
     "tsup": "^8.0.2",
     "tsx": "^4.7.1",
-    "typescript": "^5.4.3",
-    "zod": "^3.22.4"
+    "typescript": "^5.4.3"
   },
   "devDependencies": {
     "@types/node": "^20.11.30"

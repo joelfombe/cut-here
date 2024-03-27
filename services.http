@@ -2,9 +2,12 @@ POST http://localhost:8000/createurl
 content-type: application/json
 
 {
-    "shortUrl": "helloe",
+    "shortUrl": "hellog",
     "url": "https://google.com"
 }
 
 ###
-GET http://localhost:8000/hello3
+GET http://localhost:8000/hellog
+
+###
+GET http://localhost:8000/shorturl/all

@@ -4,9 +4,12 @@ import { router } from "./routers/routers";
 
 const app = express();
 const PORT = 8000 || process.env.PORT;
+
 app.use(express.json())
 app.use(router)
+
 connectDB();
+
 app.get("/", (req, res) => {
     res.send("Hello World");
 });
